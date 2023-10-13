@@ -1,0 +1,69 @@
+{
+  "name": "app-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^0.27.2",
+    "clipboard": "^2.0.11",
+    "core-js": "^3.30.1",
+    "echarts": "^5.4.2",
+    "el-select-tree": "^2.0.17",
+    "element-ui": "^2.15.13",
+    "express": "^4.18.2",
+    "file-saver": "^2.0.5",
+    "mavon-editor": "^2.10.4",
+    "vue": "^2.7.14",
+    "vue-count-to": "^1.0.13",
+    "vue-dompurify-html": "^3.1.2",
+    "vue-print-nb": "^1.7.5",
+    "vue-router": "^2.8.1",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/eslint-parser": "^7.21.3",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "json5": "^2.2.3",
+    "mockjs": "^1.1.0",
+    "node-sass": "^4.14.1",
+    "postcss-pxtorem": "^6.0.0",
+    "sass-loader": "^7.3.1",
+    "vue-template-compiler": "^2.7.14",
+    "webpack-bundle-analyzer": "^4.9.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "vue/multi-word-component-names": 0
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "main": "index.js",
+  "author": "futinggang <honeyfu888@163.com>",
+  "license": "MIT"
+}

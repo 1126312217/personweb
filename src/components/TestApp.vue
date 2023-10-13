@@ -1,0 +1,3 @@
+<template>
+  <div>没权限</div>
+</template>
